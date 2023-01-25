@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test verbose="2" preserve-order="true"
+          name="TechGlobal Login Validation">
+        <classes>
+            <class name="scipts.TG_ForgotPasswordTest">
+                <methods>
+                    <include name="forgotPasswordLink"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_InvalidLoginTest">
+                <methods>
+                    <include name="invalidUsernameLogin"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_InvalidPasswordTest">
+                <methods>
+                    <include name="invalidPasswordValidation"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_InvalidUsernamePasswordTest">
+                <methods>
+                    <include name="invalidPasswordValidation"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_LoginFormTest">
+                <methods>
+                    <include name="validateLoginPage"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_LoginLogoutTest">
+                <methods>
+                    <include name="validateLoginLogout"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_ResetPasswordTest">
+                <methods>
+                    <include name="resetPassword"/>
+                </methods>
+            </class>
+            <class name="scipts.TG_ValidLoginTest">
+                <methods>
+                    <include name="validateLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_BasePageTest.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_ForgotPasswordTest.java">
+        <classes>
+            <class name="scipts.TG_ForgotPasswordTest">
+                <methods>
+                    <include name="forgotPasswordLink"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_InvalidLoginTest.java">
+        <classes>
+            <class name="scipts.TG_InvalidLoginTest">
+                <methods>
+                    <include name="invalidUsernameLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_InvalidPasswordTest.java">
+        <classes>
+            <class name="scipts.TG_InvalidPasswordTest">
+                <methods>
+                    <include name="invalidPasswordValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_InvalidUsernamePasswordTest.java">
+        <classes>
+            <class name="scipts.TG_InvalidUsernamePasswordTest">
+                <methods>
+                    <include name="invalidPasswordValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_LoginFormTest.java">
+        <classes>
+            <class name="scipts.TG_LoginFormTest">
+                <methods>
+                    <include name="validateLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_LoginLogoutTest.java">
+        <classes>
+            <class name="scipts.TG_LoginLogoutTest">
+                <methods>
+                    <include name="validateLoginLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_ResetPasswordTest.java">
+        <classes>
+            <class name="scipts.TG_ResetPasswordTest">
+                <methods>
+                    <include name="resetPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TG_ValidLoginTest.java">
+        <classes>
+            <class name="scipts.TG_ValidLoginTest">
+                <methods>
+                    <include name="validateLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
